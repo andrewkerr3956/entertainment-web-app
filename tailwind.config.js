@@ -22,10 +22,18 @@ module.exports = {
         thumbnail: "8px"
       },
       fontSize: {
-        
+        sm: "0.8125rem",
+        md: "1rem",
+        "h-xs": "1.125rem",
+        "h-sm": "1.5rem",
+        "h-md": "1.5rem",
+        "h-lg": "2rem"
       },
       backgroundImage: {
         "search-icon": "url('/assets/icons/icon-search.svg')"
+      },
+      maxWidth: {
+        recommended: "calc(100vw - 200px)"
       }
     },
   },

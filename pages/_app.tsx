@@ -5,7 +5,7 @@ import Navbar from '@components/layout/Navbar'
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
-      <div className="bg-dark-blue w-full h-full grid grid-cols-main gap-9 px-2 text-white">
+      <div className="bg-dark-blue w-full grid grid-cols-main gap-9 px-2 text-white">
         <aside role="toolbar">
           <Navbar />
         </aside>
