@@ -1,11 +1,13 @@
 import { useEffect, useState } from "react";
 
 interface IProps {
+    input: string;
+    setInput: Function;
     searchingFor?: "All" | "Bookmarks" | "TV Series" | "Movies";
 }
 
 export default function SearchInput(props: IProps) {
-    const { searchingFor } = props;
+    const { searchingFor, input, setInput } = props;
 
     const [searchValue, setSearchValue] = useState("");
 
