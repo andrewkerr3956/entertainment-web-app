@@ -14,7 +14,7 @@ interface IProps {
 export default function FeaturedCard(props: IProps) {
     const { image, title, year, category, rating, isBookmarked } = props;
     return (
-        <figure className="relative">
+        <figure className="featured-item relative">
             <picture>         
                 <img className="rounded-[8px]" src={image?.large ? image.large : ""} alt={title + " Thumbnail"} />
             </picture>
