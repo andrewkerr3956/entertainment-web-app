@@ -26,7 +26,7 @@ export default function BookmarksPage(props: any) {
             const { small, medium, large } = item.thumbnail.regular;
             if (item.isBookmarked) {
               return (
-                <Card title={item.title} image={{ small: small, medium: medium, large: large }} category={item.category} year={item.year} rating={item.rating} />
+                <Card key={idx} title={item.title} image={{ small: small, medium: medium, large: large }} category={item.category} year={item.year} rating={item.rating} />
               )
             }
           }) : <p>No data was found.</p>}
