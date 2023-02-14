@@ -87,7 +87,7 @@ export default function HomePage(props: any) {
             {data && data?.length > 0 ? data.map((item: any, idx: any) => {
               const { small, medium, large } = item.thumbnail.regular;
               return (
-                <Card key={idx} title={item.title} image={{ small: small, medium: medium, large: large }} category={item.category} year={item.year} rating={item.rating} />
+                <Card key={`${idx}-search`} title={item.title} image={{ small: small, medium: medium, large: large }} category={item.category} year={item.year} rating={item.rating} />
               )
             }) : <p>No data was found.</p>}
           </div>
@@ -109,7 +109,7 @@ export default function HomePage(props: any) {
                 const { small, medium, large } = item.thumbnail.regular;
                 if (!item.isTrending) {
                   return (
-                    <Card title={item.title} image={{ small: small, medium: medium, large: large }} category={item.category} year={item.year} rating={item.rating} />
+                    <Card key={idx} title={item.title} image={{ small: small, medium: medium, large: large }} category={item.category} year={item.year} rating={item.rating} />
                   )
                 }
               }) : <p>No data was found.</p>}
