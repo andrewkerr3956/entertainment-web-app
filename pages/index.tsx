@@ -24,12 +24,14 @@ export default function HomePage(props: any) {
     // const carouselWidth = carousel?.clientWidth ? carousel.clientWidth : 0;
     carousel?.setAttribute("style", `transform: translateX(${carouselPosition.current}px); -webkit-transform: translateX(${carouselPosition.current}px); -moz-transform: translateX(${carouselPosition.current}px); -o-transform: translateX(${carouselPosition.current}px);`);
     carouselPosition.current -= featuredItem?.getBoundingClientRect().width ? featuredItem?.getBoundingClientRect().width + 40 : 300;
-    const newFeatured = [...featuredData];
-    let shiftFeatured = new Array(newFeatured[0], newFeatured[1], newFeatured[2]);
-    shiftFeatured.forEach((item: any) => {
-      newFeatured.push(item ? item : null);
-    })
-    setFeaturedData(newFeatured ? newFeatured : []);
+    if (featuredData.length < 50) {
+      const newFeatured = [...featuredData];
+      let shiftFeatured = new Array(newFeatured[0], newFeatured[1], newFeatured[2]);
+      shiftFeatured.forEach((item: any) => {
+        newFeatured.push(item ? item : null);
+      })
+      setFeaturedData(newFeatured ? newFeatured : []);
+    }
   };
 
   useEffect(() => {
@@ -76,7 +78,7 @@ export default function HomePage(props: any) {
         <div className="w-full flex gap-6">
           <img src="/assets/icons/icon-search.svg" alt="Search" className="block" />
           <input placeholder="Search for movies or TV series" value={searchInput} onChange={e => setSearchInput(e.target.value)}
-            className="bg-transparent [placeholder]:text-dark-blue-grey text-white relative before:height-[32px] font-[1.5rem]" />
+            className="bg-transparent [placeholder]:text-dark-blue-grey text-white relative before:height-[32px] text-[1.5rem] w-full" />
         </div>
       </header>
       <main id="media-content">

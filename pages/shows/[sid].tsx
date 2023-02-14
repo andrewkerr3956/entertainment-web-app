@@ -1,46 +1,56 @@
-import Card from "@components/cards/Card";
-import FeaturedCard from "@components/cards/FeaturedCard";
-import SearchInput from "@components/search/SearchInput";
-import { NextPageContext } from "next"
-import { useEffect, useState } from "react";
+import { NextPageContext } from "next";
+import Show from "src/types/Show";
 
 interface IProps {
-  data?: any | any[];
+    data: Show;
 }
 
-export default function ShowsPage(props: IProps) {
-  const { data } = props;
-  console.log(data);
+export default function ShowsDetailsPage(props: IProps) {
+    const { data } = props;
+    console.log(data);
+    return (
+        <article className="px-2 bg-dark-blue w-full min-h-screen">
+            <header>
+                <h1>{data?.title ? data.title : "N/A"}</h1>
+                <h2>{data?.year ? data.year : "N/A"}</h2>
+            </header>
+            <main>
+                <section id="show-carousel">
+                    <picture>
+                        <img src={data?.thumbnail?.regular?.large ? data.thumbnail.regular.large : data?.thumbnail?.regular?.medium ? data.thumbnail.regular.medium : data?.thumbnail?.regular?.small ? data.thumbnail.regular.small : "#"} alt={data?.title ? data.title : ""} />
+                    </picture>
+                </section>
+                <section>
+                    <p>
+                        {data?.description ? data.description : "No description available"}
+                    </p>
+                </section>
+            </main>
+            <footer>
 
-  return (
-    <article className="px-2 bg-dark-blue w-full">
-      <header className="mb-8">
-        {/* Search bar */}
-        <SearchInput />
-      </header>
-      <main id="shows-content">
-        <h1 className="leading-none mb-8">TV Series</h1>
-        <div className="grid grid-cols-4 gap-10 max-w-recommended">
-          {data && data?.length > 0 ? data.map((item: any, idx: any) => {
-            const { small, medium, large } = item.thumbnail.regular;
-            if (item.category === "TV Series") {
-              return (
-                <Card title={item.title} image={{ small: small, medium: medium, large: large }} category={item.category} year={item.year} rating={item.rating} />
-              )
+            </footer>
+        </article>
+    )
+}
+
+export async function getServerSideProps(ctx: NextPageContext) {
+    const query = ctx?.query?.sid as string;
+    if (query && parseInt(query)) {
+        try {
+            const data = await require('@lib/data.json');
+            return {
+                props: {
+                    data: data[query + 1]
+                }
             }
-          }) : <p>No data was found.</p>}
-        </div>
-      </main>
-    </article>
-  )
-}
-
-export async function getStaticProps() {
-  const data = require('@lib/data.json');
-
-  return {
-    props: {
-      data: data
+        } catch (e) {
+            return {
+                notFound: true
+            }
+        }
+    } else {
+        return {
+            notFound: true
+        }
     }
-  }
 }

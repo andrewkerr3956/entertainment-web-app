@@ -5,9 +5,9 @@ const showJson = {};
 
 for(let i = 0; i < openJson.length; i++) {
     if(openJson[i].category === 'Movie') {
-        movieJson.assign(openJson[i]);
+        movieJson.assign({id: i + 1, ...openJson[i]});
     } else {
-        showJson.assign(openJson[i]);
+        showJson.assign({id: i + 1 , ...openJson[i]});
     }
 }
 

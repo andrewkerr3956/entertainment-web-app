@@ -4,13 +4,13 @@
     "description": "<p>An epic science fiction adventure that takes place in the distant future. The film follows a group of astronauts as they embark on a dangerous mission to explore a mysterious new planet in a galaxy far beyond our own.</p><p>As they journey deeper into the unknown, they encounter strange and fantastical creatures, as well as evidence of an advanced alien civilization that may have once inhabited the planet. But as they uncover the secrets of this new world, they also discover that the dangers they face are greater than anything they could have imagined.</p><p>With breathtaking action, stunning visual effects, and a cast of unforgettable characters, 'Beyond Earth' is a thrilling journey into the heart of the unknown that will leave audiences on the edge of their seats.</p>",
     "thumbnail": {
       "trending": {
-        "small": "./assets/thumbnails/beyond-earth/trending/small.jpg",
-        "large": "./assets/thumbnails/beyond-earth/trending/large.jpg"
+        "small": "/assets/thumbnails/beyond-earth/trending/small.jpg",
+        "large": "/assets/thumbnails/beyond-earth/trending/large.jpg"
       },
       "regular": {
-        "small": "./assets/thumbnails/beyond-earth/regular/small.jpg",
-        "medium": "./assets/thumbnails/beyond-earth/regular/medium.jpg",
-        "large": "./assets/thumbnails/beyond-earth/regular/large.jpg"
+        "small": "/assets/thumbnails/beyond-earth/regular/small.jpg",
+        "medium": "/assets/thumbnails/beyond-earth/regular/medium.jpg",
+        "large": "/assets/thumbnails/beyond-earth/regular/large.jpg"
       }
     },
     "year": 2019,
@@ -24,13 +24,13 @@
     "description": "<p>'Bottom Gear' is a high-octane action-comedy that revs up the laughs and the thrills. The film follows a rag-tag group of mechanics and gearheads as they compete in an underground street racing circuit, facing off against some of the most daring and dangerous drivers in the city.</p><p>But when a sinister criminal organization threatens to shut down the races for good, our heroes must come together to save their beloved sport and take down the villains in a pulse-pounding, gear-grinding finale.</p><p>With a cast of quirky characters, blazingly fast cars, and some of the wildest racing scenes ever put on film, 'Bottom Gear' is a ride you won't want to miss.</p>",
     "thumbnail": {
       "trending": {
-        "small": "./assets/thumbnails/bottom-gear/trending/small.jpg",
-        "large": "./assets/thumbnails/bottom-gear/trending/large.jpg"
+        "small": "/assets/thumbnails/bottom-gear/trending/small.jpg",
+        "large": "/assets/thumbnails/bottom-gear/trending/large.jpg"
       },
       "regular": {
-        "small": "./assets/thumbnails/bottom-gear/regular/small.jpg",
-        "medium": "./assets/thumbnails/bottom-gear/regular/medium.jpg",
-        "large": "./assets/thumbnails/bottom-gear/regular/large.jpg"
+        "small": "/assets/thumbnails/bottom-gear/regular/small.jpg",
+        "medium": "/assets/thumbnails/bottom-gear/regular/medium.jpg",
+        "large": "/assets/thumbnails/bottom-gear/regular/large.jpg"
       }
     },
     "year": 2021,
@@ -44,13 +44,13 @@
     "description": "<p>'Bottom Gear' is a high-octane action-comedy television series that revs up the laughs and the thrills. The show follows a rag-tag group of mechanics and gearheads as they compete in an underground street racing circuit, facing off against some of the most daring and dangerous drivers in the city.</p><p>But as the races become more intense, and the stakes get higher, our heroes must navigate their way through a world of danger and adventure while trying to keep their sport alive and their own lives intact.</p><p>With a cast of quirky characters, blazingly fast cars, and some of the wildest racing scenes ever put on television, 'Bottom Gear' is a ride you won't want to miss.</p>",
     "thumbnail": {
       "trending": {
-        "small": "./assets/thumbnails/undiscovered-cities/trending/small.jpg",
-        "large": "./assets/thumbnails/undiscovered-cities/trending/large.jpg"
+        "small": "/assets/thumbnails/undiscovered-cities/trending/small.jpg",
+        "large": "/assets/thumbnails/undiscovered-cities/trending/large.jpg"
       },
       "regular": {
-        "small": "./assets/thumbnails/undiscovered-cities/regular/small.jpg",
-        "medium": "./assets/thumbnails/undiscovered-cities/regular/medium.jpg",
-        "large": "./assets/thumbnails/undiscovered-cities/regular/large.jpg"
+        "small": "/assets/thumbnails/undiscovered-cities/regular/small.jpg",
+        "medium": "/assets/thumbnails/undiscovered-cities/regular/medium.jpg",
+        "large": "/assets/thumbnails/undiscovered-cities/regular/large.jpg"
       }
     },
     "year": 2019,
@@ -64,13 +64,13 @@
     "description": "<p>'1998' is a nostalgic and emotional drama that takes a look back at one of the most transformative years of the 20th century. The film follows a group of friends as they navigate the ups and downs of life in the final days of the 20th century, a time of great change and uncertainty.</p><p>As they come of age and face the challenges of adulthood, they must confront their deepest fears, find their own paths in life, and come to terms with the things they hold most dear.</p>",
     "thumbnail": {
       "trending": {
-        "small": "./assets/thumbnails/1998/trending/small.jpg",
-        "large": "./assets/thumbnails/1998/trending/large.jpg"
+        "small": "/assets/thumbnails/1998/trending/small.jpg",
+        "large": "/assets/thumbnails/1998/trending/large.jpg"
       },
       "regular": {
-        "small": "./assets/thumbnails/1998/regular/small.jpg",
-        "medium": "./assets/thumbnails/1998/regular/medium.jpg",
-        "large": "./assets/thumbnails/1998/regular/large.jpg"
+        "small": "/assets/thumbnails/1998/regular/small.jpg",
+        "medium": "/assets/thumbnails/1998/regular/medium.jpg",
+        "large": "/assets/thumbnails/1998/regular/large.jpg"
       }
     },
     "year": 2021,
@@ -81,15 +81,16 @@
   },
   {
     "title": "Dark Side of the Moon",
+    "description": "<p>'Dark Side of the Moon' is a thrilling science fiction television series that takes audiences on a journey to the far reaches of our solar system. The show follows a team of astronauts as they embark on dangerous missions to explore mysterious new worlds and unravel the secrets of the universe.</p><p>With each episode, the team faces new challenges and encounters unexpected dangers, from mysterious alien life forms to treacherous conditions on uncharted planets. But through it all, they must stay united and use their skills and ingenuity to overcome the odds and complete their missions.</p><p>With its captivating storytelling, high-stakes action, and epic scope, 'Dark Side of the Moon' is a journey into the unknown that you won't want to miss.</p>",
     "thumbnail": {
       "trending": {
-        "small": "./assets/thumbnails/dark-side-of-the-moon/trending/small.jpg",
-        "large": "./assets/thumbnails/dark-side-of-the-moon/trending/large.jpg"
+        "small": "/assets/thumbnails/dark-side-of-the-moon/trending/small.jpg",
+        "large": "/assets/thumbnails/dark-side-of-the-moon/trending/large.jpg"
       },
       "regular": {
-        "small": "./assets/thumbnails/dark-side-of-the-moon/regular/small.jpg",
-        "medium": "./assets/thumbnails/dark-side-of-the-moon/regular/medium.jpg",
-        "large": "./assets/thumbnails/dark-side-of-the-moon/regular/large.jpg"
+        "small": "/assets/thumbnails/dark-side-of-the-moon/regular/small.jpg",
+        "medium": "/assets/thumbnails/dark-side-of-the-moon/regular/medium.jpg",
+        "large": "/assets/thumbnails/dark-side-of-the-moon/regular/large.jpg"
       }
     },
     "year": 2018,
@@ -100,11 +101,12 @@
   },
   {
     "title": "The Great Lands",
+    "description": "<p>'The Great Lands' is a sweeping epic adventure set in a fantastical world of magic and wonder. The film follows a young hero as they embark on a quest to uncover the secrets of the Great Lands, a vast and mysterious realm filled with danger and untold riches.</p><p>With a diverse and colorful cast of characters, from brave knights to cunning thieves, the hero must navigate the treacherous terrain and outwit the dark forces that seek to control the Great Lands. But as they journey deeper into this wondrous world, they discover that the fate of the Great Lands rests in their hands, and they must use all of their courage and cunning to defeat the evil that threatens to consume the land.</p><p>With its stunning visuals, heart-pounding action, and richly imagined world, 'The Great Lands' is a timeless tale of adventure and heroism that will captivate audiences of all ages.</p>",
     "thumbnail": {
       "regular": {
-        "small": "./assets/thumbnails/the-great-lands/regular/small.jpg",
-        "medium": "./assets/thumbnails/the-great-lands/regular/medium.jpg",
-        "large": "./assets/thumbnails/the-great-lands/regular/large.jpg"
+        "small": "/assets/thumbnails/the-great-lands/regular/small.jpg",
+        "medium": "/assets/thumbnails/the-great-lands/regular/medium.jpg",
+        "large": "/assets/thumbnails/the-great-lands/regular/large.jpg"
       }
     },
     "year": 2019,
@@ -115,11 +117,12 @@
   },
   {
     "title": "The Diary",
+    "description": "<p>'The Diary' is a gripping psychological drama that explores the mind of a young woman as she navigates the complexities of life and love. The show follows the protagonist as she keeps a journal, documenting her thoughts, feelings, and experiences as she encounters the joys and challenges of young adulthood.</p><p>As she reflects on her relationships, struggles with mental health, and searches for her place in the world, the audience is drawn into her innermost thoughts and feelings. With its raw and honest portrayal of the human experience, 'The Diary' is a moving and insightful exploration of the human condition.</p><p>Whether you're a fan of character-driven dramas or simply looking for a thought-provoking and emotionally engaging series, 'The Diary' is a must-watch.</p>",
     "thumbnail": {
       "regular": {
-        "small": "./assets/thumbnails/the-diary/regular/small.jpg",
-        "medium": "./assets/thumbnails/the-diary/regular/medium.jpg",
-        "large": "./assets/thumbnails/the-diary/regular/large.jpg"
+        "small": "/assets/thumbnails/the-diary/regular/small.jpg",
+        "medium": "/assets/thumbnails/the-diary/regular/medium.jpg",
+        "large": "/assets/thumbnails/the-diary/regular/large.jpg"
       }
     },
     "year": 2019,
@@ -130,11 +133,12 @@
   },
   {
     "title": "Earth’s Untouched",
+    "description":  "<p>'Earth's Untouched' is a breathtaking nature documentary that takes audiences on a journey to some of the most remote and pristine corners of our planet. The film explores the incredible biodiversity and natural beauty of these areas, showcasing the unique and fascinating creatures that call these lands home.</p><p>From the lush jungles of South America to the icy expanses of the Arctic, 'Earth's Untouched' offers a rare and intimate look at the diverse and wondrous world that exists beyond our cities and towns. With its stunning cinematography and thought-provoking commentary, this film is a testament to the beauty and majesty of the natural world.</p><p>For anyone who loves the great outdoors, or simply wants to be inspired by the awe-inspiring beauty of our planet, 'Earth's Untouched' is a must-see experience.</p>",
     "thumbnail": {
       "regular": {
-        "small": "./assets/thumbnails/earths-untouched/regular/small.jpg",
-        "medium": "./assets/thumbnails/earths-untouched/regular/medium.jpg",
-        "large": "./assets/thumbnails/earths-untouched/regular/large.jpg"
+        "small": "/assets/thumbnails/earths-untouched/regular/small.jpg",
+        "medium": "/assets/thumbnails/earths-untouched/regular/medium.jpg",
+        "large": "/assets/thumbnails/earths-untouched/regular/large.jpg"
       }
     },
     "year": 2017,
@@ -145,11 +149,12 @@
   },
   {
     "title": "No Land Beyond",
+    "description": "<p>'No Land Beyond' is a thrilling science fiction film that takes audiences on a journey to the far reaches of our galaxy. The film follows a team of astronauts as they embark on a dangerous mission to explore a mysterious new world beyond our solar system.</p><p>As they navigate the unknown and face new challenges at every turn, they discover that the world they have traveled to is not as it seems. With its stunning special effects, pulse-pounding action, and thought-provoking narrative, 'No Land Beyond' is a visionary journey into the unknown that you won't soon forget.</p><p>For fans of science fiction and action-packed adventures, 'No Land Beyond' is a must-see experience.</p>",
     "thumbnail": {
       "regular": {
-        "small": "./assets/thumbnails/no-land-beyond/regular/small.jpg",
-        "medium": "./assets/thumbnails/no-land-beyond/regular/medium.jpg",
-        "large": "./assets/thumbnails/no-land-beyond/regular/large.jpg"
+        "small": "/assets/thumbnails/no-land-beyond/regular/small.jpg",
+        "medium": "/assets/thumbnails/no-land-beyond/regular/medium.jpg",
+        "large": "/assets/thumbnails/no-land-beyond/regular/large.jpg"
       }
     },
     "year": 2019,
@@ -160,11 +165,12 @@
   },
   {
     "title": "During the Hunt",
+    "description": "<p>'During the Hunt' is a pulse-pounding thriller television series that explores the dangerous and deadly world of big game hunting. The show follows a group of experienced hunters as they embark on dangerous expeditions to track and capture some of the world's most elusive and exotic animals.</p><p>As they navigate treacherous terrain and face unexpected challenges, the hunters must use their skills and knowledge to stay alive and succeed in their mission. With its intense action sequences, heart-pounding suspense, and captivating characters, 'During the Hunt' is a must-watch for fans of action-packed thrillers.</p><p>Whether you're a seasoned hunter or simply looking for a heart-racing adventure, 'During the Hunt' is sure to keep you on the edge of your seat from start to finish.</p>",
     "thumbnail": {
       "regular": {
-        "small": "./assets/thumbnails/during-the-hunt/regular/small.jpg",
-        "medium": "./assets/thumbnails/during-the-hunt/regular/medium.jpg",
-        "large": "./assets/thumbnails/during-the-hunt/regular/large.jpg"
+        "small": "/assets/thumbnails/during-the-hunt/regular/small.jpg",
+        "medium": "/assets/thumbnails/during-the-hunt/regular/medium.jpg",
+        "large": "/assets/thumbnails/during-the-hunt/regular/large.jpg"
       }
     },
     "year": 2016,
@@ -175,11 +181,12 @@
   },
   {
     "title": "Autosport the Series",
+    "description": "<p>'Autosport: The Series' is an exciting and fast-paced motorsport series that brings viewers behind the scenes of the world's most thrilling and adrenaline-fueled racing events. The show covers everything from formula one to rally racing, providing an in-depth look at the behind-the-scenes action and the personalities that make these events so captivating.</p><p>From the technical details of each race to the personal stories of the drivers and teams, 'Autosport: The Series' provides a comprehensive and engaging look at the world of motorsports. With its expert analysis, breathtaking footage, and thrilling action, this series is a must-watch for any motorsport fan.</p><p>Whether you're a seasoned racing aficionado or simply looking for an adrenaline-fueled ride, 'Autosport: The Series' is sure to deliver the thrills and excitement that you crave.</p>",
     "thumbnail": {
       "regular": {
-        "small": "./assets/thumbnails/autosport-the-series/regular/small.jpg",
-        "medium": "./assets/thumbnails/autosport-the-series/regular/medium.jpg",
-        "large": "./assets/thumbnails/autosport-the-series/regular/large.jpg"
+        "small": "/assets/thumbnails/autosport-the-series/regular/small.jpg",
+        "medium": "/assets/thumbnails/autosport-the-series/regular/medium.jpg",
+        "large": "/assets/thumbnails/autosport-the-series/regular/large.jpg"
       }
     },
     "year": 2016,
@@ -190,11 +197,12 @@
   },
   {
     "title": "Same Answer II",
+    "description": "<p>'Same Answer II' is a thought-provoking and suspenseful science fiction film that explores the consequences of artificial intelligence and technological advancement. The movie follows a team of scientists and engineers as they work to create the next generation of artificial intelligence, only to discover that their creation may have unintended and potentially catastrophic consequences.</p><p>As they race against time to prevent a global disaster, the team must navigate complex moral and ethical dilemmas and confront their own beliefs about the nature of intelligence and the limits of technology. With its intelligent storytelling, thrilling action, and powerful performances, 'Same Answer II' is a must-watch for fans of science fiction and thought-provoking cinema.</p><p>Whether you're a seasoned sci-fi fan or simply looking for a thought-provoking and engaging film, 'Same Answer II' is sure to leave a lasting impression and make you question the nature of artificial intelligence and our relationship with technology.</p>",
     "thumbnail": {
       "regular": {
-        "small": "./assets/thumbnails/same-answer-2/regular/small.jpg",
-        "medium": "./assets/thumbnails/same-answer-2/regular/medium.jpg",
-        "large": "./assets/thumbnails/same-answer-2/regular/large.jpg"
+        "small": "/assets/thumbnails/same-answer-2/regular/small.jpg",
+        "medium": "/assets/thumbnails/same-answer-2/regular/medium.jpg",
+        "large": "/assets/thumbnails/same-answer-2/regular/large.jpg"
       }
     },
     "year": 2017,
@@ -205,11 +213,12 @@
   },
   {
     "title": "Below Echo",
+    "description": "<p>'Below Echo' is a heart-pounding adventure series that takes viewers on a journey to the depths of the ocean. The show follows a team of oceanic researchers as they explore the uncharted waters of the deep sea, uncovering its secrets and discovering new forms of life and unknown species.</p><p>With its breathtaking underwater footage, thrilling action sequences, and captivating characters, 'Below Echo' is a must-watch for fans of adventure and ocean exploration. As the team faces unexpected challenges and hazardous conditions, they must use their knowledge and skills to survive and make groundbreaking discoveries in the name of science.</p><p>Whether you're a marine biology enthusiast or simply looking for a heart-racing adventure, 'Below Echo' is sure to take you on a journey unlike any other and leave you in awe of the mysteries of the deep sea.</p>",
     "thumbnail": {
       "regular": {
-        "small": "./assets/thumbnails/below-echo/regular/small.jpg",
-        "medium": "./assets/thumbnails/below-echo/regular/medium.jpg",
-        "large": "./assets/thumbnails/below-echo/regular/large.jpg"
+        "small": "/assets/thumbnails/below-echo/regular/small.jpg",
+        "medium": "/assets/thumbnails/below-echo/regular/medium.jpg",
+        "large": "/assets/thumbnails/below-echo/regular/large.jpg"
       }
     },
     "year": 2016,
@@ -220,11 +229,12 @@
   },
   {
     "title": "The Rockies",
+    "description": "<p>'The Rockies' is a captivating and immersive nature series that explores the beauty and majesty of the Rocky Mountains. The show takes viewers on a journey through the stunning landscapes of this iconic mountain range, showcasing its diverse ecosystems and the incredible wildlife that calls it home.</p><p>From the lush forests to the rugged peaks, 'The Rockies' offers an up-close and personal look at the natural wonders of this iconic region. The show features breathtaking footage, expert commentary, and inspiring stories that bring the beauty of the Rockies to life.</p><p>Whether you're a nature lover or simply looking for a relaxing and visually stunning escape, 'The Rockies' is sure to take you on a journey of discovery and leave you in awe of the magnificent beauty of the Rocky Mountains.</p>",
     "thumbnail": {
       "regular": {
-        "small": "./assets/thumbnails/the-rockies/regular/small.jpg",
-        "medium": "./assets/thumbnails/the-rockies/regular/medium.jpg",
-        "large": "./assets/thumbnails/the-rockies/regular/large.jpg"
+        "small": "/assets/thumbnails/the-rockies/regular/small.jpg",
+        "medium": "/assets/thumbnails/the-rockies/regular/medium.jpg",
+        "large": "/assets/thumbnails/the-rockies/regular/large.jpg"
       }
     },
     "year": 2015,
@@ -235,11 +245,12 @@
   },
   {
     "title": "Relentless",
+    "description": "<p>'Relentless' is a high-stakes action-thriller that will keep you on the edge of your seat from beginning to end. The movie follows a former special forces operative as he embarks on a dangerous mission to track down a notorious criminal and bring him to justice.</p><p>With its pulse-pounding action sequences, intense drama, and captivating performances, 'Relentless' is a must-watch for fans of action and suspense. As the protagonist navigates a web of deceit and danger, he must use all of his skills and training to stay one step ahead of his enemies and complete his mission.</p><p>Whether you're a fan of high-stakes action or simply looking for a heart-pounding adventure, 'Relentless' is sure to deliver non-stop thrills and keep you on the edge of your seat from beginning to end.</p>",
     "thumbnail": {
       "regular": {
-        "small": "./assets/thumbnails/relentless/regular/small.jpg",
-        "medium": "./assets/thumbnails/relentless/regular/medium.jpg",
-        "large": "./assets/thumbnails/relentless/regular/large.jpg"
+        "small": "/assets/thumbnails/relentless/regular/small.jpg",
+        "medium": "/assets/thumbnails/relentless/regular/medium.jpg",
+        "large": "/assets/thumbnails/relentless/regular/large.jpg"
       }
     },
     "year": 2017,
@@ -250,11 +261,12 @@
   },
   {
     "title": "Community of Ours",
+    "description": "<p>'Community of Ours' is a heartwarming and uplifting series that explores the lives of a close-knit community and the bonds that bring its residents together. The show takes viewers on a journey through the daily lives of the community's members, showcasing their struggles, triumphs, and the relationships that bring meaning to their lives.</p><p>With its engaging characters, compelling stories, and heartwarming moments, 'Community of Ours' is a must-watch for fans of feel-good television. The show explores themes of friendship, family, and community, and highlights the power of human connection to bring people together and make the world a better place.</p><p>Whether you're a fan of character-driven dramas or simply looking for a positive and uplifting escape, 'Community of Ours' is sure to warm your heart and leave you feeling inspired.</p>",
     "thumbnail": {
       "regular": {
-        "small": "./assets/thumbnails/community-of-ours/regular/small.jpg",
-        "medium": "./assets/thumbnails/community-of-ours/regular/medium.jpg",
-        "large": "./assets/thumbnails/community-of-ours/regular/large.jpg"
+        "small": "/assets/thumbnails/community-of-ours/regular/small.jpg",
+        "medium": "/assets/thumbnails/community-of-ours/regular/medium.jpg",
+        "large": "/assets/thumbnails/community-of-ours/regular/large.jpg"
       }
     },
     "year": 2018,
@@ -265,11 +277,12 @@
   },
   {
     "title": "Van Life",
+    "description": "<p>'Van Life' is a heartwarming and adventurous movie that takes you on a journey through the world of van dwelling and the nomadic lifestyle. The movie follows a group of friends as they leave behind their conventional lives and hit the road in search of freedom and self-discovery.</p><p>With its breathtaking landscapes, exciting road trips, and intimate character moments, 'Van Life' is a must-watch for fans of travel and adventure. The film showcases the beauty of the open road, the thrill of the unknown, and the power of community and friendship.</p><p>Whether you're a fan of travel documentaries, road trip movies, or simply looking for a bit of inspiration, 'Van Life' is sure to capture your imagination and inspire you to hit the road and explore the world.</p>",
     "thumbnail": {
       "regular": {
-        "small": "./assets/thumbnails/van-life/regular/small.jpg",
-        "medium": "./assets/thumbnails/van-life/regular/medium.jpg",
-        "large": "./assets/thumbnails/van-life/regular/large.jpg"
+        "small": "/assets/thumbnails/van-life/regular/small.jpg",
+        "medium": "/assets/thumbnails/van-life/regular/medium.jpg",
+        "large": "/assets/thumbnails/van-life/regular/large.jpg"
       }
     },
     "year": 2015,
@@ -280,11 +293,12 @@
   },
   {
     "title": "The Heiress",
+    "description": "<p>'The Heiress' is a captivating and suspenseful drama that explores the world of high society and the dangerous games people play to protect their wealth and status. The movie follows the story of a young woman named Catherine Sloper, who inherits a vast fortune from her father and becomes the target of a charismatic suitor who is after her money.</p><p>With its complex characters, intricate plot, and breathtaking twists and turns, 'The Heiress' is a must-watch for fans of psychological thrillers and romantic dramas. The film explores themes of love, deceit, and the consequences of our choices, and is sure to keep you on the edge of your seat.</p><p>Whether you're a fan of classic literature, Victorian-era dramas, or simply looking for a captivating and thought-provoking movie, 'The Heiress' is sure to provide an unforgettable experience.</p>",
     "thumbnail": {
       "regular": {
-        "small": "./assets/thumbnails/the-heiress/regular/small.jpg",
-        "medium": "./assets/thumbnails/the-heiress/regular/medium.jpg",
-        "large": "./assets/thumbnails/the-heiress/regular/large.jpg"
+        "small": "/assets/thumbnails/the-heiress/regular/small.jpg",
+        "medium": "/assets/thumbnails/the-heiress/regular/medium.jpg",
+        "large": "/assets/thumbnails/the-heiress/regular/large.jpg"
       }
     },
     "year": 2021,
@@ -295,11 +309,12 @@
   },
   {
     "title": "Off the Track",
+    "description": "<p>'Off the Track' is a high-stakes, action-packed drama that takes you on a wild ride through the world of illegal street racing. The movie follows a young and talented street racer named Jake, who finds himself drawn into a dangerous and lucrative underground racing circuit after he is released from prison.</p><p>With its pulse-pounding races, intense characters, and thrilling plot twists, 'Off the Track' is a must-watch for fans of fast cars and high-stakes drama. The film explores the adrenaline-fueled world of illegal street racing and the lengths people will go to for fame, fortune, and the thrill of the race.</p><p>Whether you're a fan of racing movies, crime dramas, or simply looking for a fast-paced and heart-pumping thrill ride, 'Off the Track' is sure to deliver a white-knuckle experience that you won't forget.</p>",
     "thumbnail": {
       "regular": {
-        "small": "./assets/thumbnails/off-the-track/regular/small.jpg",
-        "medium": "./assets/thumbnails/off-the-track/regular/medium.jpg",
-        "large": "./assets/thumbnails/off-the-track/regular/large.jpg"
+        "small": "/assets/thumbnails/off-the-track/regular/small.jpg",
+        "medium": "/assets/thumbnails/off-the-track/regular/medium.jpg",
+        "large": "/assets/thumbnails/off-the-track/regular/large.jpg"
       }
     },
     "year": 2017,
@@ -310,11 +325,12 @@
   },
   {
     "title": "Whispering Hill",
+    "description": "<p>'Whispering Hill' is a haunting and atmospheric mystery-thriller that takes you on a journey into the dark and mysterious heart of an ancient forest. The movie follows a young woman named Samantha, who travels to the remote village of Whispering Hill to uncover the truth about her sister's disappearance.</p><p>As Samantha delves deeper into the secrets of the forest and the strange, reclusive community that lives within its borders, she finds herself caught in a web of deceit, danger, and supernatural forces beyond her comprehension.</p><p>With its eerie atmosphere, suspenseful plot, and supernatural elements, 'Whispering Hill' is a must-watch for fans of mystery-thrillers and ghost stories. The film explores the dark side of human nature and the supernatural forces that exist beyond our understanding, and is sure to leave you on the edge of your seat from beginning to end.</p>",
     "thumbnail": {
       "regular": {
-        "small": "./assets/thumbnails/whispering-hill/regular/small.jpg",
-        "medium": "./assets/thumbnails/whispering-hill/regular/medium.jpg",
-        "large": "./assets/thumbnails/whispering-hill/regular/large.jpg"
+        "small": "/assets/thumbnails/whispering-hill/regular/small.jpg",
+        "medium": "/assets/thumbnails/whispering-hill/regular/medium.jpg",
+        "large": "/assets/thumbnails/whispering-hill/regular/large.jpg"
       }
     },
     "year": 2017,
@@ -325,11 +341,12 @@
   },
   {
     "title": "112",
+    "description": "<p>'112' is a high-stakes, adrenaline-fueled drama series that follows the lives of a group of emergency responders as they race against the clock to save lives and keep the peace in a bustling metropolitan city.</p><p>With a diverse cast of characters, including seasoned police officers, fearless firefighters, and dedicated paramedics, '112' takes viewers on a wild ride through the city's streets, skies, and tunnels, as the heroes of the emergency services face one heart-pounding crisis after another.</p><p>From fires and car accidents to natural disasters and criminal acts, '112' is a pulse-pounding showcase of bravery, teamwork, and unwavering dedication to the community. With its intense action and emotional storylines, this show is sure to keep you on the edge of your seat from start to finish.</p>",
     "thumbnail": {
       "regular": {
-        "small": "./assets/thumbnails/112/regular/small.jpg",
-        "medium": "./assets/thumbnails/112/regular/medium.jpg",
-        "large": "./assets/thumbnails/112/regular/large.jpg"
+        "small": "/assets/thumbnails/112/regular/small.jpg",
+        "medium": "/assets/thumbnails/112/regular/medium.jpg",
+        "large": "/assets/thumbnails/112/regular/large.jpg"
       }
     },
     "year": 2013,
@@ -340,11 +357,12 @@
   },
   {
     "title": "Lone Heart",
+    "description": "<p>'Lone Heart' is a heart-wrenching and emotional drama film that explores the meaning of love, loss, and sacrifice. The movie follows the journey of a lone heart as it travels from one person to another, changing lives and bringing people together.</p><p>As the lone heart moves from one character to another, it teaches them the true value of love and helps them to find their way back to happiness. Along the way, the characters must overcome their own personal demons and work through their emotional struggles to come to terms with the loss of loved ones.</p><p>Featuring powerful performances and a deeply moving storyline, 'Lone Heart' is a film that will touch your soul and leave you feeling inspired and uplifted. So, grab a box of tissues and get ready to experience the power of love in this unforgettable movie.</p>",
     "thumbnail": {
       "regular": {
-        "small": "./assets/thumbnails/lone-heart/regular/small.jpg",
-        "medium": "./assets/thumbnails/lone-heart/regular/medium.jpg",
-        "large": "./assets/thumbnails/lone-heart/regular/large.jpg"
+        "small": "/assets/thumbnails/lone-heart/regular/small.jpg",
+        "medium": "/assets/thumbnails/lone-heart/regular/medium.jpg",
+        "large": "/assets/thumbnails/lone-heart/regular/large.jpg"
       }
     },
     "year": 2017,
@@ -355,11 +373,12 @@
   },
   {
     "title": "Production Line",
+    "description": "<p>'Production Line' is a fast-paced and engaging reality TV show that takes you behind the scenes of some of the world's most cutting-edge production facilities. From the assembly line to the testing grounds, this show offers an up-close and personal look at the people, processes, and machines that keep the production line moving.</p><p>Each episode of 'Production Line' focuses on a different industry and gives you an in-depth look at the unique challenges and triumphs that come with mass production. From high-tech robotics to time-tested manual labor, this show showcases the skills and expertise that go into making everything from consumer goods to military equipment.</p><p>With a mix of stunning visuals and insightful interviews, 'Production Line' is a must-watch for anyone who loves technology, engineering, and the thrill of the production line. So, get ready to roll up your sleeves and experience the excitement of mass production like never before.</p>",
     "thumbnail": {
       "regular": {
-        "small": "./assets/thumbnails/production-line/regular/small.jpg",
-        "medium": "./assets/thumbnails/production-line/regular/medium.jpg",
-        "large": "./assets/thumbnails/production-line/regular/large.jpg"
+        "small": "/assets/thumbnails/production-line/regular/small.jpg",
+        "medium": "/assets/thumbnails/production-line/regular/medium.jpg",
+        "large": "/assets/thumbnails/production-line/regular/large.jpg"
       }
     },
     "year": 2018,
@@ -370,11 +389,12 @@
   },
   {
     "title": "Dogs",
+    "description": "<p>'Dogs' is a heartwarming and educational television series that explores the incredible bond between humans and man's best friend. Each episode features a different breed of dog, and showcases the unique characteristics, personality traits, and abilities that make each breed so special.</p><p>From obedience training to amazing feats of athleticism, 'Dogs' provides an in-depth look at the daily lives of dogs and their owners. You'll also get to see how dogs are trained for specific jobs, such as search and rescue, service dogs, and therapy dogs, and how they are helping people in need every day.</p><p>Whether you're a dog lover or just looking to learn more about these amazing animals, 'Dogs' is a must-watch show. So grab a treat, sit back, and join us on a journey to discover the incredible world of dogs.</p>",
     "thumbnail": {
       "regular": {
-        "small": "./assets/thumbnails/dogs/regular/small.jpg",
-        "medium": "./assets/thumbnails/dogs/regular/medium.jpg",
-        "large": "./assets/thumbnails/dogs/regular/large.jpg"
+        "small": "/assets/thumbnails/dogs/regular/small.jpg",
+        "medium": "/assets/thumbnails/dogs/regular/medium.jpg",
+        "large": "/assets/thumbnails/dogs/regular/large.jpg"
       }
     },
     "year": 2016,
@@ -385,11 +405,12 @@
   },
   {
     "title": "Asia in 24 Days",
+    "description": "<p>'Asia in 24 Days' is a travel show that takes viewers on an exciting journey through the diverse continent of Asia. The show features a group of adventurers who embark on a 24-day trip to experience the unique cultures, foods, and landscapes of several countries in the region. From bustling cities to remote rural areas, the travelers immerse themselves in the local way of life, seeking out the authentic experiences that only Asia can offer. Whether it's exploring ancient temples, trying exotic foods, or meeting friendly locals, each episode is filled with thrilling experiences and unforgettable memories.</p>",
     "thumbnail": {
       "regular": {
-        "small": "./assets/thumbnails/asia-in-24-days/regular/small.jpg",
-        "medium": "./assets/thumbnails/asia-in-24-days/regular/medium.jpg",
-        "large": "./assets/thumbnails/asia-in-24-days/regular/large.jpg"
+        "small": "/assets/thumbnails/asia-in-24-days/regular/small.jpg",
+        "medium": "/assets/thumbnails/asia-in-24-days/regular/medium.jpg",
+        "large": "/assets/thumbnails/asia-in-24-days/regular/large.jpg"
       }
     },
     "year": 2020,
@@ -400,11 +421,12 @@
   },
   {
     "title": "The Tasty Tour",
+    "description": "<p>'The Tasty Tour' is a culinary adventure show that takes viewers on a delicious journey around the world. The show follows a team of food enthusiasts as they explore different countries and taste their way through the local cuisine. From street food stalls to Michelin-starred restaurants, the travelers are always on the hunt for the best and most authentic dishes. Along the way, they meet local chefs, learn about regional cooking techniques, and discover unique ingredients. Whether they're sampling spicy curries in India, savoring fresh seafood in Japan, or indulging in delectable pastries in France, each episode of 'The Tasty Tour' is a feast for the senses.</p>",
     "thumbnail": {
       "regular": {
-        "small": "./assets/thumbnails/the-tasty-tour/regular/small.jpg",
-        "medium": "./assets/thumbnails/the-tasty-tour/regular/medium.jpg",
-        "large": "./assets/thumbnails/the-tasty-tour/regular/large.jpg"
+        "small": "/assets/thumbnails/the-tasty-tour/regular/small.jpg",
+        "medium": "/assets/thumbnails/the-tasty-tour/regular/medium.jpg",
+        "large": "/assets/thumbnails/the-tasty-tour/regular/large.jpg"
       }
     },
     "year": 2016,
@@ -415,11 +437,12 @@
   },
   {
     "title": "Darker",
+    "description": "<p>'Darker' is a suspenseful and thrilling movie that explores the darker side of humanity. The film takes the audience on a journey into the unknown as it delves into the complex psychological depths of its characters and their motivations. As the story unfolds, viewers will be kept on the edge of their seat as they witness the intense struggles, both internal and external, that these characters must overcome in order to survive. With expertly crafted twists and turns, 'Darker' is a must-see for fans of psychological thrillers and those who enjoy being taken on a heart-pounding ride.</p>",
     "thumbnail": {
       "regular": {
-        "small": "./assets/thumbnails/darker/regular/small.jpg",
-        "medium": "./assets/thumbnails/darker/regular/medium.jpg",
-        "large": "./assets/thumbnails/darker/regular/large.jpg"
+        "small": "/assets/thumbnails/darker/regular/small.jpg",
+        "medium": "/assets/thumbnails/darker/regular/medium.jpg",
+        "large": "/assets/thumbnails/darker/regular/large.jpg"
       }
     },
     "year": 2017,
@@ -430,11 +453,12 @@
   },
   {
     "title": "Unresolved Cases",
+    "description": "<p>Unresolved Cases is a gripping crime series that follows a team of detectives as they work to crack open some of the most mysterious and complex cases on the books. With each episode, the team dives deep into a new investigation, piecing together clues and unraveling secrets as they work to uncover the truth behind each case. Whether it's a long-forgotten cold case or a recent crime that's gone unsolved, the detectives will stop at nothing to bring justice to those who have been wronged. With twists, turns, and shocking revelations at every turn, Unresolved Cases is a must-watch for fans of true crime and mystery stories.</p>",
     "thumbnail": {
       "regular": {
-        "small": "./assets/thumbnails/unresolved-cases/regular/small.jpg",
-        "medium": "./assets/thumbnails/unresolved-cases/regular/medium.jpg",
-        "large": "./assets/thumbnails/unresolved-cases/regular/large.jpg"
+        "small": "/assets/thumbnails/unresolved-cases/regular/small.jpg",
+        "medium": "/assets/thumbnails/unresolved-cases/regular/medium.jpg",
+        "large": "/assets/thumbnails/unresolved-cases/regular/large.jpg"
       }
     },
     "year": 2018,
@@ -445,11 +469,12 @@
   },
   {
     "title": "Mission: Saturn",
+    "description": "<p>'Mission: Saturn' is a thrilling sci-fi movie that takes audiences on a journey beyond our solar system. The story revolves around a team of astronauts as they embark on a mission to explore the mysterious planet Saturn and its many moons. With cutting-edge technology and a determination to unlock the secrets of the universe, this team will stop at nothing to complete their mission and make history.</p><p>As they travel deeper into the galaxy, they encounter unexpected challenges and face life-threatening situations that test their resolve and their understanding of the universe. Will they be able to overcome the odds and uncover the truth about Saturn, or will they be lost in the vastness of space forever?</p>",
     "thumbnail": {
       "regular": {
-        "small": "./assets/thumbnails/mission-saturn/regular/small.jpg",
-        "medium": "./assets/thumbnails/mission-saturn/regular/medium.jpg",
-        "large": "./assets/thumbnails/mission-saturn/regular/large.jpg"
+        "small": "/assets/thumbnails/mission-saturn/regular/small.jpg",
+        "medium": "/assets/thumbnails/mission-saturn/regular/medium.jpg",
+        "large": "/assets/thumbnails/mission-saturn/regular/large.jpg"
       }
     },
     "year": 2017,

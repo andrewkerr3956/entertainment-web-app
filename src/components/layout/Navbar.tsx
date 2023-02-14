@@ -12,7 +12,7 @@ export default function Navbar() {
                         <li title="TV Shows"><Link href="/shows"><img src="/assets/icons/icon-nav-tv-series.svg" alt="TV Shows Icon" /></Link></li>
                         <li title="Bookmarks"><Link href="/bookmarks"><img src="/assets/icons/icon-nav-bookmark.svg" alt="Bookmarks Icon" /></Link></li>
                     </ul>
-                    <img src="/assets/images/image-avatar.png" alt="My Account Picture" className="rounded-full border border-white border-solid" />
+                    <img src="/assets/images/no-avatar.svg" alt="My Account Picture" className="rounded-full border border-white border-solid" />
                 </nav>
             </div>
         </div>

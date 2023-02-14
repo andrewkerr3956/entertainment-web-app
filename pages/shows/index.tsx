@@ -35,13 +35,13 @@ export default function ShowsPage() {
     }, [searchInput]);
 
     return (
-        <article className="px-2 bg-dark-blue w-full">
+        <article className="px-2 bg-dark-blue w-full min-h-screen">
             <header className="mb-8">
                 {/* Search bar */}
                 <div className="w-full flex gap-6">
                     <img src="/assets/icons/icon-search.svg" alt="Search" className="block" />
-                    <input placeholder="Search for TV series" value={searchInput} onChange={e => setSearchInput(e.target.value)}
-                        className="bg-transparent [placeholder]:text-dark-blue-grey text-white relative before:height-[32px] font-[1.5rem] w-full" />
+                    <input placeholder="Search for movies or TV series" value={searchInput} onChange={e => setSearchInput(e.target.value)}
+                        className="bg-transparent [placeholder]:text-dark-blue-grey text-white relative before:height-[32px] text-[1.5rem] w-full" />
                 </div>
             </header>
             <main id="shows-content">

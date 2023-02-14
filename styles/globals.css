@@ -55,8 +55,8 @@ h5, h6 {
 }
 
 #featured-carousel {
-  transition: all linear 1s;
-  -webkit-transition: all linear 1s; 
-  -moz-transition: all linear 1s; 
-  -o-transition: all linear 1s; 
+  transition: all ease-in 0.75s;
+  -webkit-transition: all ease-in 0.75s;
+  -moz-transition: all ease-in 0.75s;
+  -o-transition: all ease-in 0.75s;
 }

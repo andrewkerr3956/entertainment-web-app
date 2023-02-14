@@ -7,8 +7,9 @@ interface IProps {
 
 export default function MoviesDetailsPage(props: IProps) {
     const { data } = props;
+    console.log(data);
     return (
-        <article className="px-2 bg-dark-blue w-full">
+        <article className="px-2 bg-dark-blue w-full min-h-screen">
             <header>
                 <h1>{data?.title ? data.title : "N/A"}</h1>
                 <h2>{data?.year ? data.year : "N/A"}</h2>
@@ -16,7 +17,7 @@ export default function MoviesDetailsPage(props: IProps) {
             <main>
                 <section id="movie-carousel">
                     <picture>
-                        <img src="#" alt="" />
+                        <img src={data?.thumbnail?.regular?.large ? data.thumbnail.regular.large : data?.thumbnail?.regular?.medium ? data.thumbnail.regular.medium : data?.thumbnail?.regular?.small ? data.thumbnail.regular.small : "#"} alt={data?.title ? data.title : ""} />
                     </picture>
                 </section>
                 <section>

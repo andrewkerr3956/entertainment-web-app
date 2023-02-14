@@ -15,38 +15,38 @@ export default function MoviesPage(props: any) {
   const [searchInput, setSearchInput] = useState("");
 
   const effectCounter = useRef(0);
-    const effectTotal = useRef(process.env.NODE_ENV === 'development' ? 2 : 1);
+  const effectTotal = useRef(process.env.NODE_ENV === 'development' ? 2 : 1);
 
-    console.log(effectTotal);
+  console.log(effectTotal);
 
-    useEffect(() => {
-        if (effectCounter.current >= effectTotal.current) {
-            (async function filterData() {
-                if (searchInput.length > 0) {
-                    let filteredData = [...data];
-                    filteredData = filteredData.filter((item: Movie) => { return item.title.toLowerCase().includes(searchInput.toLowerCase()) ? item : null });
-                    setData(filteredData);
-                } else {
-                    setData(initData);
-                }
-            })();
+  useEffect(() => {
+    if (effectCounter.current >= effectTotal.current) {
+      (async function filterData() {
+        if (searchInput.length > 0) {
+          let filteredData = [...data];
+          filteredData = filteredData.filter((item: Movie) => { return item.title.toLowerCase().includes(searchInput.toLowerCase()) ? item : null });
+          setData(filteredData);
         } else {
-            const showData = require('@lib/data.json');
-            setInitData(showData);
-            setData(showData);
-            effectCounter.current++;
+          setData(initData);
         }
-    }, [searchInput]);
+      })();
+    } else {
+      const showData = require('@lib/data.json');
+      setInitData(showData);
+      setData(showData);
+      effectCounter.current++;
+    }
+  }, [searchInput]);
 
 
   return (
-    <article className="px-2 bg-dark-blue w-full">
+    <article className="px-2 bg-dark-blue w-full min-h-screen">
       <header className="mb-8">
         {/* Search bar */}
         <div className="w-full flex gap-6">
           <img src="/assets/icons/icon-search.svg" alt="Search" className="block" />
-          <input placeholder="Search for movies" value={searchInput} onChange={e => setSearchInput(e.target.value)}
-            className="bg-transparent [placeholder]:text-dark-blue-grey text-white relative before:height-[32px] font-[1.5rem] w-full" />
+          <input placeholder="Search for movies or TV series" value={searchInput} onChange={e => setSearchInput(e.target.value)}
+            className="bg-transparent [placeholder]:text-dark-blue-grey text-white relative before:height-[32px] text-[1.5rem] w-full" />
         </div>
       </header>
       <main id="movies-content">
