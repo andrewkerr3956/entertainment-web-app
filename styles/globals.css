@@ -53,3 +53,10 @@ h5, h6 {
   /* Not using headings this low */
   display: none;
 }
+
+#featured-carousel {
+  transition: all linear 1s;
+  -webkit-transition: all linear 1s; 
+  -moz-transition: all linear 1s; 
+  -o-transition: all linear 1s; 
+}

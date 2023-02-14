@@ -4,19 +4,20 @@ import SearchInput from "@components/search/SearchInput";
 import { NextPageContext } from "next"
 import { useEffect, useState } from "react";
 
-interface IProps {
-  data?: any | any[];
-}
+export default function BookmarksPage(props: any) {
 
-export default function BookmarksPage(props: IProps) {
-  const { data } = props;
-  console.log(data);
+  const [searchInput, setSearchInput] = useState("");
+  const [data, setData] = useState([]);
 
   return (
     <article className="px-2 bg-dark-blue w-full">
       <header className="mb-8">
         {/* Search bar */}
-        <SearchInput />
+        <div className="w-full flex gap-6">
+          <img src="/assets/icons/icon-search.svg" alt="Search" className="block" />
+          <input placeholder="Search for TV series" value={searchInput} onChange={e => setSearchInput(e.target.value)}
+            className="bg-transparent [placeholder]:text-dark-blue-grey text-white relative before:height-[32px] font-[1.5rem] w-full" />
+        </div>
       </header>
       <main id="bookmarks-content">
         <h1 className="leading-none mb-8">Bookmarks</h1>
@@ -33,14 +34,4 @@ export default function BookmarksPage(props: IProps) {
       </main>
     </article>
   )
-}
-
-export async function getStaticProps() {
-  const data = require('@lib/data.json');
-
-  return {
-    props: {
-      data: data
-    }
-  }
 }
