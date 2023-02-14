@@ -67,7 +67,7 @@ export default function HomePage(props: any) {
     }
 
     return () => {
-      clearTimeout();
+      clearTimeout(1);
     }
   }, [featuredData]);
 
