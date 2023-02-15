@@ -3,6 +3,8 @@ import type { AppProps } from 'next/app'
 import Navbar from '@components/layout/Navbar'
 import Router from 'next/router'
 import { useEffect, useState } from 'react';
+import { Provider } from 'react-redux';
+import store from '@lib/redux/store';
 
 export default function App({ Component, pageProps }: AppProps) {
   const [authLayout, setAuthLayout] = useState(false);
@@ -12,7 +14,7 @@ export default function App({ Component, pageProps }: AppProps) {
     }
   }, []);
   return (
-    <>
+    <Provider store={store}>
       <div className={`bg-dark-blue w-full ${!authLayout ? "grid grid-cols-main gap-9" : ""} px-2 text-white`}>
         {!authLayout ? (
           <aside role="toolbar">
@@ -23,6 +25,6 @@ export default function App({ Component, pageProps }: AppProps) {
           <Component {...pageProps} />
         </main>
       </div>
-    </>
+    </Provider>
   )
 }

@@ -13,7 +13,16 @@
   outline: 0;
   border: 0;
   box-sizing: border-box;
+  position: relative;
 }
+
+/* *:focus:not(:focus-visible) {
+  outline: none;
+}
+
+*:focus-visible {
+  outline: 2px solid white;
+} */
 
 :root {
   font-size: 16px;

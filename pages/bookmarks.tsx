@@ -3,8 +3,9 @@ import FeaturedCard from "@components/cards/FeaturedCard";
 import SearchInput from "@components/search/SearchInput";
 import { NextPageContext } from "next"
 import { useEffect, useState } from "react";
+import { connect } from "react-redux";
 
-export default function BookmarksPage(props: any) {
+const BookmarksPage = (props: any) => {
 
   const [searchInput, setSearchInput] = useState("");
   const [data, setData] = useState([]);
@@ -35,3 +36,9 @@ export default function BookmarksPage(props: any) {
     </article>
   )
 }
+
+const mapState = (state: any) => ({
+  user: state.user
+})
+
+export default connect(mapState)(BookmarksPage);
