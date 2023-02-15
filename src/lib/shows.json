@@ -1,0 +1,248 @@
+[
+    {
+        "id": 3,
+        "title": "Undiscovered Cities",
+        "description": "<p>'Bottom Gear' is a high-octane action-comedy television series that revs up the laughs and the thrills. The show follows a rag-tag group of mechanics and gearheads as they compete in an underground street racing circuit, facing off against some of the most daring and dangerous drivers in the city.</p><p>But as the races become more intense, and the stakes get higher, our heroes must navigate their way through a world of danger and adventure while trying to keep their sport alive and their own lives intact.</p><p>With a cast of quirky characters, blazingly fast cars, and some of the wildest racing scenes ever put on television, 'Bottom Gear' is a ride you won't want to miss.</p>",
+        "thumbnail": {
+            "trending": {
+                "small": "/assets/thumbnails/undiscovered-cities/trending/small.jpg",
+                "large": "/assets/thumbnails/undiscovered-cities/trending/large.jpg"
+            },
+            "regular": {
+                "small": "/assets/thumbnails/undiscovered-cities/regular/small.jpg",
+                "medium": "/assets/thumbnails/undiscovered-cities/regular/medium.jpg",
+                "large": "/assets/thumbnails/undiscovered-cities/regular/large.jpg"
+            }
+        },
+        "year": 2019,
+        "category": "TV Series",
+        "rating": "E",
+        "isBookmarked": false,
+        "isTrending": true
+    },
+    {
+        "id": 5,
+        "title": "Dark Side of the Moon",
+        "description": "<p>'Dark Side of the Moon' is a thrilling science fiction television series that takes audiences on a journey to the far reaches of our solar system. The show follows a team of astronauts as they embark on dangerous missions to explore mysterious new worlds and unravel the secrets of the universe.</p><p>With each episode, the team faces new challenges and encounters unexpected dangers, from mysterious alien life forms to treacherous conditions on uncharted planets. But through it all, they must stay united and use their skills and ingenuity to overcome the odds and complete their missions.</p><p>With its captivating storytelling, high-stakes action, and epic scope, 'Dark Side of the Moon' is a journey into the unknown that you won't want to miss.</p>",
+        "thumbnail": {
+            "trending": {
+                "small": "/assets/thumbnails/dark-side-of-the-moon/trending/small.jpg",
+                "large": "/assets/thumbnails/dark-side-of-the-moon/trending/large.jpg"
+            },
+            "regular": {
+                "small": "/assets/thumbnails/dark-side-of-the-moon/regular/small.jpg",
+                "medium": "/assets/thumbnails/dark-side-of-the-moon/regular/medium.jpg",
+                "large": "/assets/thumbnails/dark-side-of-the-moon/regular/large.jpg"
+            }
+        },
+        "year": 2018,
+        "category": "TV Series",
+        "rating": "PG",
+        "isBookmarked": true,
+        "isTrending": true
+    },
+    {
+        "id": 7,
+        "title": "The Diary",
+        "description": "<p>'The Diary' is a gripping psychological drama that explores the mind of a young woman as she navigates the complexities of life and love. The show follows the protagonist as she keeps a journal, documenting her thoughts, feelings, and experiences as she encounters the joys and challenges of young adulthood.</p><p>As she reflects on her relationships, struggles with mental health, and searches for her place in the world, the audience is drawn into her innermost thoughts and feelings. With its raw and honest portrayal of the human experience, 'The Diary' is a moving and insightful exploration of the human condition.</p><p>Whether you're a fan of character-driven dramas or simply looking for a thought-provoking and emotionally engaging series, 'The Diary' is a must-watch.</p>",
+        "thumbnail": {
+            "regular": {
+                "small": "/assets/thumbnails/the-diary/regular/small.jpg",
+                "medium": "/assets/thumbnails/the-diary/regular/medium.jpg",
+                "large": "/assets/thumbnails/the-diary/regular/large.jpg"
+            }
+        },
+        "year": 2019,
+        "category": "TV Series",
+        "rating": "PG",
+        "isBookmarked": false,
+        "isTrending": false
+    },
+    {
+        "id": 10,
+        "title": "During the Hunt",
+        "description": "<p>'During the Hunt' is a pulse-pounding thriller television series that explores the dangerous and deadly world of big game hunting. The show follows a group of experienced hunters as they embark on dangerous expeditions to track and capture some of the world's most elusive and exotic animals.</p><p>As they navigate treacherous terrain and face unexpected challenges, the hunters must use their skills and knowledge to stay alive and succeed in their mission. With its intense action sequences, heart-pounding suspense, and captivating characters, 'During the Hunt' is a must-watch for fans of action-packed thrillers.</p><p>Whether you're a seasoned hunter or simply looking for a heart-racing adventure, 'During the Hunt' is sure to keep you on the edge of your seat from start to finish.</p>",
+        "thumbnail": {
+            "regular": {
+                "small": "/assets/thumbnails/during-the-hunt/regular/small.jpg",
+                "medium": "/assets/thumbnails/during-the-hunt/regular/medium.jpg",
+                "large": "/assets/thumbnails/during-the-hunt/regular/large.jpg"
+            }
+        },
+        "year": 2016,
+        "category": "TV Series",
+        "rating": "PG",
+        "isBookmarked": false,
+        "isTrending": false
+    },
+    {
+        "id": 11,
+        "title": "Autosport the Series",
+        "description": "<p>'Autosport: The Series' is an exciting and fast-paced motorsport series that brings viewers behind the scenes of the world's most thrilling and adrenaline-fueled racing events. The show covers everything from formula one to rally racing, providing an in-depth look at the behind-the-scenes action and the personalities that make these events so captivating.</p><p>From the technical details of each race to the personal stories of the drivers and teams, 'Autosport: The Series' provides a comprehensive and engaging look at the world of motorsports. With its expert analysis, breathtaking footage, and thrilling action, this series is a must-watch for any motorsport fan.</p><p>Whether you're a seasoned racing aficionado or simply looking for an adrenaline-fueled ride, 'Autosport: The Series' is sure to deliver the thrills and excitement that you crave.</p>",
+        "thumbnail": {
+            "regular": {
+                "small": "/assets/thumbnails/autosport-the-series/regular/small.jpg",
+                "medium": "/assets/thumbnails/autosport-the-series/regular/medium.jpg",
+                "large": "/assets/thumbnails/autosport-the-series/regular/large.jpg"
+            }
+        },
+        "year": 2016,
+        "category": "TV Series",
+        "rating": "18+",
+        "isBookmarked": false,
+        "isTrending": false
+    },
+    {
+        "id": 13,
+        "title": "Below Echo",
+        "description": "<p>'Below Echo' is a heart-pounding adventure series that takes viewers on a journey to the depths of the ocean. The show follows a team of oceanic researchers as they explore the uncharted waters of the deep sea, uncovering its secrets and discovering new forms of life and unknown species.</p><p>With its breathtaking underwater footage, thrilling action sequences, and captivating characters, 'Below Echo' is a must-watch for fans of adventure and ocean exploration. As the team faces unexpected challenges and hazardous conditions, they must use their knowledge and skills to survive and make groundbreaking discoveries in the name of science.</p><p>Whether you're a marine biology enthusiast or simply looking for a heart-racing adventure, 'Below Echo' is sure to take you on a journey unlike any other and leave you in awe of the mysteries of the deep sea.</p>",
+        "thumbnail": {
+            "regular": {
+                "small": "/assets/thumbnails/below-echo/regular/small.jpg",
+                "medium": "/assets/thumbnails/below-echo/regular/medium.jpg",
+                "large": "/assets/thumbnails/below-echo/regular/large.jpg"
+            }
+        },
+        "year": 2016,
+        "category": "TV Series",
+        "rating": "PG",
+        "isBookmarked": false,
+        "isTrending": false
+    },
+    {
+        "id": 14,
+        "title": "The Rockies",
+        "description": "<p>'The Rockies' is a captivating and immersive nature series that explores the beauty and majesty of the Rocky Mountains. The show takes viewers on a journey through the stunning landscapes of this iconic mountain range, showcasing its diverse ecosystems and the incredible wildlife that calls it home.</p><p>From the lush forests to the rugged peaks, 'The Rockies' offers an up-close and personal look at the natural wonders of this iconic region. The show features breathtaking footage, expert commentary, and inspiring stories that bring the beauty of the Rockies to life.</p><p>Whether you're a nature lover or simply looking for a relaxing and visually stunning escape, 'The Rockies' is sure to take you on a journey of discovery and leave you in awe of the magnificent beauty of the Rocky Mountains.</p>",
+        "thumbnail": {
+            "regular": {
+                "small": "/assets/thumbnails/the-rockies/regular/small.jpg",
+                "medium": "/assets/thumbnails/the-rockies/regular/medium.jpg",
+                "large": "/assets/thumbnails/the-rockies/regular/large.jpg"
+            }
+        },
+        "year": 2015,
+        "category": "TV Series",
+        "rating": "E",
+        "isBookmarked": true,
+        "isTrending": false
+    },
+    {
+        "id": 16,
+        "title": "Community of Ours",
+        "description": "<p>'Community of Ours' is a heartwarming and uplifting series that explores the lives of a close-knit community and the bonds that bring its residents together. The show takes viewers on a journey through the daily lives of the community's members, showcasing their struggles, triumphs, and the relationships that bring meaning to their lives.</p><p>With its engaging characters, compelling stories, and heartwarming moments, 'Community of Ours' is a must-watch for fans of feel-good television. The show explores themes of friendship, family, and community, and highlights the power of human connection to bring people together and make the world a better place.</p><p>Whether you're a fan of character-driven dramas or simply looking for a positive and uplifting escape, 'Community of Ours' is sure to warm your heart and leave you feeling inspired.</p>",
+        "thumbnail": {
+            "regular": {
+                "small": "/assets/thumbnails/community-of-ours/regular/small.jpg",
+                "medium": "/assets/thumbnails/community-of-ours/regular/medium.jpg",
+                "large": "/assets/thumbnails/community-of-ours/regular/large.jpg"
+            }
+        },
+        "year": 2018,
+        "category": "TV Series",
+        "rating": "18+",
+        "isBookmarked": false,
+        "isTrending": false
+    },
+    {
+        "id": 21,
+        "title": "112",
+        "description": "<p>'112' is a high-stakes, adrenaline-fueled drama series that follows the lives of a group of emergency responders as they race against the clock to save lives and keep the peace in a bustling metropolitan city.</p><p>With a diverse cast of characters, including seasoned police officers, fearless firefighters, and dedicated paramedics, '112' takes viewers on a wild ride through the city's streets, skies, and tunnels, as the heroes of the emergency services face one heart-pounding crisis after another.</p><p>From fires and car accidents to natural disasters and criminal acts, '112' is a pulse-pounding showcase of bravery, teamwork, and unwavering dedication to the community. With its intense action and emotional storylines, this show is sure to keep you on the edge of your seat from start to finish.</p>",
+        "thumbnail": {
+            "regular": {
+                "small": "/assets/thumbnails/112/regular/small.jpg",
+                "medium": "/assets/thumbnails/112/regular/medium.jpg",
+                "large": "/assets/thumbnails/112/regular/large.jpg"
+            }
+        },
+        "year": 2013,
+        "category": "TV Series",
+        "rating": "PG",
+        "isBookmarked": false,
+        "isTrending": false
+    },
+    {
+        "id": 23,
+        "title": "Production Line",
+        "description": "<p>'Production Line' is a fast-paced and engaging reality TV show that takes you behind the scenes of some of the world's most cutting-edge production facilities. From the assembly line to the testing grounds, this show offers an up-close and personal look at the people, processes, and machines that keep the production line moving.</p><p>Each episode of 'Production Line' focuses on a different industry and gives you an in-depth look at the unique challenges and triumphs that come with mass production. From high-tech robotics to time-tested manual labor, this show showcases the skills and expertise that go into making everything from consumer goods to military equipment.</p><p>With a mix of stunning visuals and insightful interviews, 'Production Line' is a must-watch for anyone who loves technology, engineering, and the thrill of the production line. So, get ready to roll up your sleeves and experience the excitement of mass production like never before.</p>",
+        "thumbnail": {
+            "regular": {
+                "small": "/assets/thumbnails/production-line/regular/small.jpg",
+                "medium": "/assets/thumbnails/production-line/regular/medium.jpg",
+                "large": "/assets/thumbnails/production-line/regular/large.jpg"
+            }
+        },
+        "year": 2018,
+        "category": "TV Series",
+        "rating": "PG",
+        "isBookmarked": false,
+        "isTrending": false
+    },
+    {
+        "id": 24,
+        "title": "Dogs",
+        "description": "<p>'Dogs' is a heartwarming and educational television series that explores the incredible bond between humans and man's best friend. Each episode features a different breed of dog, and showcases the unique characteristics, personality traits, and abilities that make each breed so special.</p><p>From obedience training to amazing feats of athleticism, 'Dogs' provides an in-depth look at the daily lives of dogs and their owners. You'll also get to see how dogs are trained for specific jobs, such as search and rescue, service dogs, and therapy dogs, and how they are helping people in need every day.</p><p>Whether you're a dog lover or just looking to learn more about these amazing animals, 'Dogs' is a must-watch show. So grab a treat, sit back, and join us on a journey to discover the incredible world of dogs.</p>",
+        "thumbnail": {
+            "regular": {
+                "small": "/assets/thumbnails/dogs/regular/small.jpg",
+                "medium": "/assets/thumbnails/dogs/regular/medium.jpg",
+                "large": "/assets/thumbnails/dogs/regular/large.jpg"
+            }
+        },
+        "year": 2016,
+        "category": "TV Series",
+        "rating": "E",
+        "isBookmarked": true,
+        "isTrending": false
+    },
+    {
+        "id": 25,
+        "title": "Asia in 24 Days",
+        "description": "<p>'Asia in 24 Days' is a travel show that takes viewers on an exciting journey through the diverse continent of Asia. The show features a group of adventurers who embark on a 24-day trip to experience the unique cultures, foods, and landscapes of several countries in the region. From bustling cities to remote rural areas, the travelers immerse themselves in the local way of life, seeking out the authentic experiences that only Asia can offer. Whether it's exploring ancient temples, trying exotic foods, or meeting friendly locals, each episode is filled with thrilling experiences and unforgettable memories.</p>",
+        "thumbnail": {
+            "regular": {
+                "small": "/assets/thumbnails/asia-in-24-days/regular/small.jpg",
+                "medium": "/assets/thumbnails/asia-in-24-days/regular/medium.jpg",
+                "large": "/assets/thumbnails/asia-in-24-days/regular/large.jpg"
+            }
+        },
+        "year": 2020,
+        "category": "TV Series",
+        "rating": "PG",
+        "isBookmarked": false,
+        "isTrending": false
+    },
+    {
+        "id": 26,
+        "title": "The Tasty Tour",
+        "description": "<p>'The Tasty Tour' is a culinary adventure show that takes viewers on a delicious journey around the world. The show follows a team of food enthusiasts as they explore different countries and taste their way through the local cuisine. From street food stalls to Michelin-starred restaurants, the travelers are always on the hunt for the best and most authentic dishes. Along the way, they meet local chefs, learn about regional cooking techniques, and discover unique ingredients. Whether they're sampling spicy curries in India, savoring fresh seafood in Japan, or indulging in delectable pastries in France, each episode of 'The Tasty Tour' is a feast for the senses.</p>",
+        "thumbnail": {
+            "regular": {
+                "small": "/assets/thumbnails/the-tasty-tour/regular/small.jpg",
+                "medium": "/assets/thumbnails/the-tasty-tour/regular/medium.jpg",
+                "large": "/assets/thumbnails/the-tasty-tour/regular/large.jpg"
+            }
+        },
+        "year": 2016,
+        "category": "TV Series",
+        "rating": "PG",
+        "isBookmarked": false,
+        "isTrending": false
+    },
+    {
+        "id": 28,
+        "title": "Unresolved Cases",
+        "description": "<p>Unresolved Cases is a gripping crime series that follows a team of detectives as they work to crack open some of the most mysterious and complex cases on the books. With each episode, the team dives deep into a new investigation, piecing together clues and unraveling secrets as they work to uncover the truth behind each case. Whether it's a long-forgotten cold case or a recent crime that's gone unsolved, the detectives will stop at nothing to bring justice to those who have been wronged. With twists, turns, and shocking revelations at every turn, Unresolved Cases is a must-watch for fans of true crime and mystery stories.</p>",
+        "thumbnail": {
+            "regular": {
+                "small": "/assets/thumbnails/unresolved-cases/regular/small.jpg",
+                "medium": "/assets/thumbnails/unresolved-cases/regular/medium.jpg",
+                "large": "/assets/thumbnails/unresolved-cases/regular/large.jpg"
+            }
+        },
+        "year": 2018,
+        "category": "TV Series",
+        "rating": "18+",
+        "isBookmarked": false,
+        "isTrending": false
+    }
+]

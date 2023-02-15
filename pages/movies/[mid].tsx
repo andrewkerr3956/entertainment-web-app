@@ -37,7 +37,7 @@ export async function getServerSideProps(ctx: NextPageContext) {
     const query = ctx?.query?.mid as string;
     if (query && parseInt(query)) {
         try {
-            const data = await require('@lib/data.json');
+            const data = await require('@lib/movies.json');
             return {
                 props: {
                     data: data[query + 1]
