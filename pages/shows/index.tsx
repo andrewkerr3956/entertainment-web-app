@@ -16,22 +16,27 @@ export default function ShowsPage() {
     console.log(effectTotal);
 
     useEffect(() => {
-        if (effectCounter.current >= effectTotal.current) {
-            (async function filterData() {
-                if (searchInput.length > 0) {
-                    let filteredData = [...data];
-                    filteredData = filteredData.filter((item: Show) => { return item.title.toLowerCase().includes(searchInput.toLowerCase()) ? item : null });
-                    setData(filteredData);
-                } else {
-                    setData(initData);
-                }
-            })();
-        } else {
-            const showData = require('@lib/data.json');
-            setInitData(showData);
-            setData(showData);
-            effectCounter.current++;
-        }
+        (async function () {
+            if (effectCounter.current >= effectTotal.current) {
+                (async function filterData() {
+                    if (searchInput.length > 0) {
+                        let filteredData = [...data];
+                        filteredData = filteredData.filter((item: Show) => { return item.title.toLowerCase().includes(searchInput.toLowerCase()) ? item : null });
+                        setData(filteredData);
+                    } else {
+                        setData(initData);
+                    }
+                })();
+            } else {
+                let result = null;
+                const req = await fetch(`${process.env.DOMAIN}/api/media/shows`);
+                result = await req.json();
+                const showData = result.results;
+                setInitData(showData);
+                setData(showData);
+                effectCounter.current++;
+            }
+        })();
     }, [searchInput]);
 
     return (

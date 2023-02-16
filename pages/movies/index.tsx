@@ -20,22 +20,27 @@ export default function MoviesPage(props: any) {
   console.log(effectTotal);
 
   useEffect(() => {
-    if (effectCounter.current >= effectTotal.current) {
-      (async function filterData() {
-        if (searchInput.length > 0) {
-          let filteredData = [...data];
-          filteredData = filteredData.filter((item: Movie) => { return item.title.toLowerCase().includes(searchInput.toLowerCase()) ? item : null });
-          setData(filteredData);
-        } else {
-          setData(initData);
-        }
-      })();
-    } else {
-      const showData = require('@lib/data.json');
-      setInitData(showData);
-      setData(showData);
-      effectCounter.current++;
-    }
+    (async function () {
+      if (effectCounter.current >= effectTotal.current) {
+        (async function filterData() {
+          if (searchInput.length > 0) {
+            let filteredData = [...data];
+            filteredData = filteredData.filter((item: Movie) => { return item.title.toLowerCase().includes(searchInput.toLowerCase()) ? item : null });
+            setData(filteredData);
+          } else {
+            setData(initData);
+          }
+        })();
+      } else {
+        let result = null;
+        const req = await fetch(`${process.env.DOMAIN}/api/media/movies`);
+        result = await req.json();
+        const movieData = result.results;
+        setInitData(movieData);
+        setData(movieData);
+        effectCounter.current++;
+      }
+    })();
   }, [searchInput]);
 
 
@@ -66,12 +71,13 @@ export default function MoviesPage(props: any) {
   )
 }
 
-// export async function getStaticProps() {
-//   const data = require('@lib/data.json');
-
+// export async function getServerSideProps() {
+//   let result = null;
+//   const req = await fetch(`${process.env.DOMAIN}/api/media/movies`);
+//   result = await req.json();
 //   return {
 //     props: {
-//       data: data
+//       data: result.results
 //     }
 //   }
 // }

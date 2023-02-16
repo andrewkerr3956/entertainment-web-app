@@ -3,11 +3,7 @@ import React from "react";
 interface IProps {
     description: string;
 }
-/**
- * 
- * @param description 
- * @returns A decoded HTML description
- */
+
 const DecodeDescription = (props: IProps): any => {
     const { description } = props;
     const arrTags = description.match(new RegExp(/<p>.*?<\/p>/gi));

@@ -21,7 +21,7 @@ export default function FeaturedCard(props: IProps) {
             <figcaption className="absolute bottom-0 left-6">
                 <ul role="contentinfo" className="flex gap-2">
                     {year && <li className="inline">{year}</li>}
-                    {category && <><span>•</span><li className="inline"><span></span><span>{category}</span></li></>}
+                    {category && <><span>•</span><li className="inline"><span style={{ marginRight: '0.375rem', fontSize: '1em' }}><img className="inline" src={category === "Movie" ? "./assets/icons/icon-category-movie.svg" : "./assets/icons/icon-category-tv.svg"} alt={`${category} icon`} /></span><span>{category}</span></li></>}
                     {rating && <><span>•</span><li className="inline">{rating}</li></>}
                 </ul>
                 <h1>{title}</h1>
