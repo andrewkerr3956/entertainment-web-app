@@ -69,3 +69,26 @@ h5, h6 {
   -moz-transition: all ease-in 0.75s;
   -o-transition: all ease-in 0.75s;
 }
+
+.avatar-container-signup-menu {
+  visibility: hidden;
+}
+
+.avatar-container-signup-menu li {
+  padding: 0 1rem;
+}
+
+.avatar-container {
+  position: relative;
+}
+
+.avatar-container:hover .avatar-container-signup-menu {
+  visibility: visible;
+  position: absolute;
+  left: 4rem;
+  top: 0;
+  background-color: #10141E;
+  z-index: 2;
+  width: 10rem;
+  border-radius: 6px;
+}

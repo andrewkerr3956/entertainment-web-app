@@ -24,7 +24,7 @@ const LoginForm = (props: IProps) => {
     // const dispatch = useDispatch();
 
     useEffect(() => {
-        if(user.username) {
+        if(user?.email) {
             Router.push("/");
         }
     }, []);

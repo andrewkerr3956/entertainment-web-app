@@ -1,5 +1,6 @@
 declare type User = {
-    username: string;
+    email: string;
+    bookmarks: Array<Object>;
 }
 
 export default User;
